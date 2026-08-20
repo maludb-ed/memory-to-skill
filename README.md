@@ -336,9 +336,23 @@ vibetemplates/preserve-the-evidence/           ← this repo
 │   │   └── hooks.json                         ← Stop hook registration
 │   └── scripts/
 │       └── log-session.js                     ← the logger (pure Node, no deps)
+├── memory-to-skill/                           ← companion plugin (see its README)
+│   ├── .claude-plugin/
+│   │   └── plugin.json
+│   └── commands/
+│       ├── mark.md                            ← /mark section delimiter
+│       └── distill.md                         ← /distill history → skill
 ├── README.md
 ├── LICENSE                                    ← MIT
 └── BUILD_PRESERVE_THE_EVIDENCE.md             ← original build spec
+```
+
+## Companion plugin: memory-to-skill
+
+This marketplace also ships [`memory-to-skill`](memory-to-skill/), which mines the transcripts this plugin preserves: mark a section of a session that worked (`/mark <name>` live, or paste `[SKILL-START: <name>]` into a log file after the fact), then run `/distill` to turn it into a repeatable skill or slash command in your project's `.claude/` directory. Fully standalone — but the two are better together.
+
+```
+/plugin install memory-to-skill
 ```
 
 ## Contributing

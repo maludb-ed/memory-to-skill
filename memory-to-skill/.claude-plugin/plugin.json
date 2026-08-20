@@ -1,0 +1,11 @@
+{
+  "name": "memory-to-skill",
+  "version": "0.1.0",
+  "description": "Turns marked sections of successful session history into repeatable skills or slash commands. /mark delimits an attempt, /distill turns it into a skill.",
+  "author": {
+    "name": "Edward Honour @edhonour"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/vibetemplates/preserve-the-evidence",
+  "repository": "https://github.com/vibetemplates/preserve-the-evidence"
+}

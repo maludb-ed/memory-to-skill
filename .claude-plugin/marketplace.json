@@ -17,6 +17,20 @@
       "license": "MIT",
       "keywords": ["logging", "transcript", "notes", "hooks", "session"],
       "category": "utilities"
+    },
+    {
+      "name": "memory-to-skill",
+      "source": "./memory-to-skill",
+      "description": "Turns marked sections of successful session history into repeatable skills or slash commands. /mark delimits an attempt, /distill turns it into a skill.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Edward Honour @edhonour"
+      },
+      "homepage": "https://github.com/vibetemplates/preserve-the-evidence",
+      "repository": "https://github.com/vibetemplates/preserve-the-evidence",
+      "license": "MIT",
+      "keywords": ["skills", "commands", "distill", "automation", "session"],
+      "category": "utilities"
     }
   ]
 }

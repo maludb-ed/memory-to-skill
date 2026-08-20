@@ -1,3 +1,6 @@
 node_modules/
 .DS_Store
 *.log
+
+# session transcripts written by the plugin while dogfooding — never ship these
+**/docs/claude-log/
