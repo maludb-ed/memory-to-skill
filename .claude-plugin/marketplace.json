@@ -1,23 +1,9 @@
 {
-  "name": "preserve-the-evidence",
+  "name": "memory-to-skill",
   "owner": {
     "name": "Edward Honour @edhonour"
   },
   "plugins": [
-    {
-      "name": "preserve-the-evidence",
-      "source": "./preserve-the-evidence",
-      "description": "Writes each Claude Code session as markdown to docs/claude-log/. Includes /note command for non-executing annotations.",
-      "version": "0.2.0",
-      "author": {
-        "name": "Edward Honour @edhonour"
-      },
-      "homepage": "https://github.com/vibetemplates/preserve-the-evidence",
-      "repository": "https://github.com/vibetemplates/preserve-the-evidence",
-      "license": "MIT",
-      "keywords": ["logging", "transcript", "notes", "hooks", "session"],
-      "category": "utilities"
-    },
     {
       "name": "memory-to-skill",
       "source": "./memory-to-skill",
@@ -26,8 +12,8 @@
       "author": {
         "name": "Edward Honour @edhonour"
       },
-      "homepage": "https://github.com/vibetemplates/preserve-the-evidence",
-      "repository": "https://github.com/vibetemplates/preserve-the-evidence",
+      "homepage": "https://github.com/maludb-ed/memory-to-skill",
+      "repository": "https://github.com/maludb-ed/memory-to-skill",
       "license": "MIT",
       "keywords": ["skills", "commands", "distill", "automation", "session"],
       "category": "utilities"
